@@ -11,7 +11,7 @@ There are many different techniques designed specifically for dealing with time 
 
 2. Neural Prophet : It is advanced version of FB Prophet based on neural networks.It bridges the gap between traditional time-series models and deep learning methods by combinig neural networks and fourier series.
 
-3. LSTM recurrent neural networks : LSTM stands for Long short-term memory. LSTM cells are used in recurrent neural networks that learn to predict the future from sequences of variable lengths. They work with any kind of sequential data and, unlike ARIMA and Prophet, are not restricted to time series. 
+3. LSTM RNNs : LSTM stands for Long short-term memory. LSTM cells are used in recurrent neural networks that learn to predict the future from sequences of variable lengths. They work with any kind of sequential data and, unlike ARIMA and Prophet, are not restricted to time series. 
 
 4. ARIMA : It is a class of time series prediction models, and the name is an abbreviation for AutoRegressive Integrated Moving Average. The backbone of ARIMA is a mathematical model that represents the time series values using its past values.
 
@@ -21,4 +21,6 @@ There are many different techniques designed specifically for dealing with time 
 
 2. Neural Prophet : Its performance is almost similar to Prophet. The test error is around 1500, while the training error is 150.
 
-3. 
+3. LSTM-RNN : It performed best among the other models. Its MSE for test dataset is around 60. Compared to the huge interval of 4000 to 6000. It performed really good. Its train error is around 50.
+
+4. ARIMA : Its performace is considerable for test data as its error is around 1500. 
