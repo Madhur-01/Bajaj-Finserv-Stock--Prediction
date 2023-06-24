@@ -14,3 +14,7 @@ There are many different techniques designed specifically for dealing with time 
 3. LSTM recurrent neural networks : LSTM stands for Long short-term memory. LSTM cells are used in recurrent neural networks that learn to predict the future from sequences of variable lengths. They work with any kind of sequential data and, unlike ARIMA and Prophet, are not restricted to time series. 
 
 4. ARIMA : It is a class of time series prediction models, and the name is an abbreviation for AutoRegressive Integrated Moving Average. The backbone of ARIMA is a mathematical model that represents the time series values using its past values.
+
+# Results 
+
+1 Prophet : 
