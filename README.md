@@ -17,10 +17,10 @@ There are many different techniques designed specifically for dealing with time 
 
 # Results 
 
-1 Prophet :  On testing, I fond that the mean absolute error for test data is around 1400 and for the test data it is around 380. The stock prices of testing dataset vary from 4000 to 12000. So we can consider the error of 1400 for this interval and can that it's overall performance is good.
+1 Prophet :  On testing, I fond that the mean absolute error for test data is around 1400 and relative MAE about mean is 19.29%. For the training data it is around 380. The stock prices of testing dataset vary from 4000 to 12000. So we can consider the error of 1400 for this interval and can that it's overall performance is good.
 
-2. Neural Prophet : Its performance is almost similar to Prophet. The test error is around 1500, while the training error is 150.
+2. Neural Prophet : Its performance is almost similar to Prophet. The test error is around 1500  and relative MAE about mean is 20.9%, while the training error is 150.
 
-3. LSTM-RNN : It performed best among the other models. Its MSE for test dataset is around 60. Compared to the huge interval of 4000 to 6000. It performed really good. Its train error is around 50.
+3. LSTM-RNN : It performed best among the other models. Its MSE for test dataset is around 60 only  and relative MAE about mean is 0.78%. Compared to the huge interval of 4000 to 6000. It performed really good. Its training error is around 50.
 
-4. ARIMA : Its performace is considerable for test data as its error is around 1500. 
+4. ARIMA : Its performace is considerable for test data as its error is around 1500 and relative MAE about mean is 21.7% . For training data its error is around 1700.
