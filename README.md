@@ -17,4 +17,8 @@ There are many different techniques designed specifically for dealing with time 
 
 # Results 
 
-1 Prophet : 
+1 Prophet :  On testing, I fond that the mean absolute error for test data is around 1400 and for the test data it is around 380. The stock prices of testing dataset vary from 4000 to 12000. So we can consider the error of 1400 for this interval and can that it's overall performance is good.
+
+2. Neural Prophet : Its performance is almost similar to Prophet. The test error is around 1500, while the training error is 150.
+
+3. 
