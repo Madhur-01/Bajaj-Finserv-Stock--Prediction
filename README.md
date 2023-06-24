@@ -1,4 +1,4 @@
-# Stock-Price-Predction
+# Stock-Price-Pridction
 In this project I analysed various time series forecasting and predictive algorithms to predict stock prices. A stock is a general term used to describe the ownership certificates of any company and it's price changes with time forming time series. Time series can be defined as an ordered sequence of data points spread across a period. Time, in this case, is usually an independent variable, whereas the other variables involved keep on changing the values.
 
 The dataset which I used is stock exchange data for Bajaj Finserv Ltd, an Indian financial services company in order to compare the three models. The dataset spans the period from 2008 until the end of 2021. It contains the daily stock price (mean, low, and high values) as well as the total volume and the turnover of traded stocks.
